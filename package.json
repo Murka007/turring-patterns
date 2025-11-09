@@ -1,7 +1,7 @@
 {
 	"name": "turing-patterns",
-    "author": "Murka",
-    "description": "See what happens when you blur and sharpen an image multiple times",
+	"author": "Murka",
+	"description": "See what happens when you blur and sharpen an image multiple times",
 	"version": "1.1",
 	"private": true,
 	"type": "module",
@@ -12,13 +12,16 @@
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-        "start": "bun run dev"
+		"start": "bun run dev",
+		"deploy": "bun run build && bunx gh-pages -d build"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.47.1",
 		"@sveltejs/vite-plugin-svelte": "^6.2.1",
 		"@tailwindcss/vite": "^4.1.14",
+		"gh-pages": "^6.3.0",
 		"svelte": "^5.41.0",
 		"svelte-check": "^4.3.3",
 		"tailwindcss": "^4.1.14",
