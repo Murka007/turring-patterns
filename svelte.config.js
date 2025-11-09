@@ -7,7 +7,7 @@ const config = {
     kit: {
         adapter: adapter(),
         paths: {
-            base: process.env.NODE_ENV === "production" ? "/turring-patterns" : "",
+            base: process.env.NODE_ENV === "production" ? "/turing-patterns" : "",
         }
     }
 }

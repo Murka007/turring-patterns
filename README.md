@@ -4,7 +4,7 @@
 
 This website provides a basic understanding of how [`Turing-pattern`](https://en.wikipedia.org/wiki/Turing_pattern) looks like and what patterns can be achieved by this.
 
-Check Preview: [Turring-patterns](https://murka007.github.io/turring-patterns/)
+Check Preview: [Turing-patterns](https://murka007.github.io/turing-patterns/)
 
 <img src="https://github.com/user-attachments/assets/0ae9c42c-9e51-4c1e-baef-6132dca237bc" height="250"/>
 

@@ -52,7 +52,7 @@ const downloadImage = (ctx: CanvasRenderingContext2D) => {
 
     const a = document.createElement("a");
     a.href = cropped.toDataURL("image/png");
-    a.download = "TurringPatternResult.png";
+    a.download = "TuringPatternResult.png";
     a.click();
 }
 
